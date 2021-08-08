@@ -1,0 +1,13 @@
+cradle:
+  cabal:
+    - path: "src"
+      component: "lib:reltest"
+
+    - path: "app/Main.hs"
+      component: "reltest:exe:reltest"
+
+    - path: "app/Statements.hs"
+      component: "reltest:exe:reltest"
+
+    - path: "test"
+      component: "reltest:test:reltest-test"
